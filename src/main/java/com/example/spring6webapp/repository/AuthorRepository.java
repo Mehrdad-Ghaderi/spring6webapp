@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
  * Time: 1:45 PM
  */
 @Repository
-public interface AuthorRepository extends CrudRepository<Long, Author> {
+public interface AuthorRepository extends CrudRepository<Author, Long> {
 }
